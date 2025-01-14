@@ -1,9 +1,9 @@
 {
   "name": "projeto30---landingpage",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,7 +12,9 @@
   "description": "",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.13.3",
+    "events": "^3.3.0",
     "parcel": "^2.13.3",
-    "sharp": "^0.33.5"
+    "sharp": "^0.33.5",
+    "svgo": "^3.3.2"
   }
 }
